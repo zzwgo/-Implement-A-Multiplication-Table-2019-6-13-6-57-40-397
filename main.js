@@ -28,8 +28,12 @@ function createMultiplicationTable(start,end,isStartLessThanEndCheck,isRangeVali
     }
     return result;
 }
+function main(start,end){
+    return createMultiplicationTable(start,end,isStartLessThanEnd(start,end),isRangeValid(start,end));
+}
 module.exports = {
     isRangeValid,
     isStartLessThanEnd,
-    createMultiplicationTable
+    createMultiplicationTable,
+    main
 };
