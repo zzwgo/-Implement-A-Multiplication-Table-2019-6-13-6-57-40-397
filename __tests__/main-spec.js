@@ -3,7 +3,7 @@ const isStartLessThanEnd = ob.isStartLessThanEnd;
 const isRangeValid=ob.isRangeValid;
 const createMultiplicationTable=ob.createMultiplicationTable
 const main=ob.main
-it ('.....', () => {
+it ('create MultiplicationTable when input 2 and 1', () => {
     expect(main(2, 1)).toBe(null);
 });
 
